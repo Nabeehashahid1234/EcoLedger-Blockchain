@@ -1,9 +1,4 @@
 # EchoLedger — Decentralized Web3 Guestbook Application
-
-**Course:** MG3012 — Blockchain Technology for Business  
-**Degree & Semester:** BSFT — 5th Semester (Fall 2026)  
-**Instructor:** Dr. Usama Arshad  
-
 ---
 
 ## 📌 1. Project Overview & Business Value
@@ -112,19 +107,7 @@ The single-page web interface (`index.html`) fulfills all technical HTML element
 
 ---
 
-## 📊 7. Evaluation Criteria Checklist
-
-| Rubric Section | Criteria | Status | Implementation |
-|---|---|---|---|
-| **Smart Contract Design** | 3–5 functions (read & write), logic, deployment | **5 / 5** | 1 write (`postNote`), 3 read functions (`getNoteCount`, `getNote`, `getMyNoteCount`) deployed on Sepolia. |
-| **Frontend Integration** | Single-page HTML/CSS/JS with required elements | **3 + 4** | Complete HTML structure, external `style.css`, Ethers.js integration. |
-| **Functionality & Wallet** | MetaMask connection, read/write handling | **4 / 4** | Ethers v5 Web3Provider, Signer initialization, dynamic state rendering. |
-| **Documentation & Proof** | Detailed README, setup, screenshots | **3 / 3** | Comprehensive README + `screenshots/` directory containing deployment and UI evidence. |
-| **Bonus** | Verified on Etherscan / Extra UI Feature | **+1** | Custom dark emerald glassmorphic responsive UI with live character count & Lucide icons. |
-
----
-
-## 📸 8. Screenshots Summary
+## 📸 7. Screenshots Summary
 
 All required screenshot evidence is saved inside the `/screenshots` directory:
 - `01-contract-deployment.png`: Proves contract deployment address and transaction receipt in Remix IDE.
@@ -132,9 +115,3 @@ All required screenshot evidence is saved inside the `/screenshots` directory:
 - `03-transaction-success.png`: Shows a confirmed write transaction with the updated total count and message feed card rendered on-screen.
 
 ---
-
-## 👤 Author Information
-
-- **Course:** MG3012 Blockchain Technology for Business
-- **Institution:** BSFT — 5th Semester (Fall 2026)
-- **Instructor:** Dr. Usama Arshad
